@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Drawer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Draw</title>
+//     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
 <h3>Практическая работа 2, часть 1</h3>
@@ -43,7 +43,7 @@ if (isset($_GET['num'])) {
     }
     echo "<h3>".$shape_tag."</h3>";
     echo "<svg width='1500' height='1500'>";
-    echo "  <".$shape_tag."fill=".$color."/>";
+    echo "  <".$shape_tag."fill=".$color." style='stroke:black' />";
     echo "</svg>";
 } else {
     echo "<p>Задайте число от 0 до 127 в параметре, чтобы нарисовать фигуру</p>

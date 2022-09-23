@@ -16,3 +16,5 @@ services:
      - ./apacheserver:/usr/local/apache2/htdocs/
     ports:
      - "8081:80"
+    depends_on:
+      - db
