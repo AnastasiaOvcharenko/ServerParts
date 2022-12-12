@@ -1,0 +1,13 @@
+body {
+    --text-color: #eee;
+    --bkg-color: #121212;
+}
+
+body {
+    background: var(--bkg-color);
+}
+
+h1,
+p, label {
+    color: var(--text-color);
+}
